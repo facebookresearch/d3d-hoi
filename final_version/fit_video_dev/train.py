@@ -286,4 +286,5 @@ if __name__ == "__main__":
     for idx in range(len(videopath)):
         print(idx)
         executor.submit(run_exp, args, videopath[idx])
+        #run_exp(args, videopath[idx])
     

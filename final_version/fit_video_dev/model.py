@@ -259,7 +259,8 @@ class JOHMRModel(nn.Module):
             textures = TexturesVertex(verts_features=tex).to(self.device)
             obj_mesh = Meshes(verts=[p3d_obj_verts],faces=[self.obj_faces],textures=textures)
             # !!! remove pix_to_face !!!
-            diff_img, pix_to_face = self.diff_render(meshes_world=obj_mesh, R=self.R, T=self.T)  # !!! remove pix_to_face !!!
+            # diff_img, pix_to_face = self.diff_render(meshes_world=obj_mesh, R=self.R, T=self.T)  # !!! remove pix_to_face !!!
+            diff_img = self.diff_render(meshes_world=obj_mesh, R=self.R, T=self.T)  # !!! remove pix_to_face !!!
             # !!! remove pix_to_face !!!
             diff_img = diff_img[..., 3:]
             diff_img = diff_img.permute(0,3,1,2)[0,0,:,:] #(h,w)
