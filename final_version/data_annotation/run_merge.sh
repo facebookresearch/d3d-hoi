@@ -1,0 +1,19 @@
+#!/bin/bash
+python merge_video.py --start 0 --end 10 &
+python merge_video.py --start 10 --end 20 &
+python merge_video.py --start 20 --end 30 &
+python merge_video.py --start 30 --end 40 &
+python merge_video.py --start 40 --end 50 &
+python merge_video.py --start 50 --end 60 &
+python merge_video.py --start 60 --end 70 &
+python merge_video.py --start 70 --end 80 &
+python merge_video.py --start 80 --end 90 &
+python merge_video.py --start 90 --end 100 &
+python merge_video.py --start 100 --end 110 &
+python merge_video.py --start 110 --end 120 &
+python merge_video.py --start 120 --end 130 &
+python merge_video.py --start 130 --end 140 &
+python merge_video.py --start 140 --end 150 &
+python merge_video.py --start 150 --end 160 &
+python merge_video.py --start 160 --end 170 &
+python merge_video.py --start 170 --end 180 &

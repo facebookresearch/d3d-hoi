@@ -1,0 +1,28 @@
+<!DOCTYPE FilterScript>
+<FilterScript>
+ <filter name="Transform: Flip and/or swap axis">
+  <Param name="flipX" value="true" type="RichBool" description="Flip X axis"/>
+  <Param name="flipY" value="false" type="RichBool" description="Flip Y axis"/>
+  <Param name="flipZ" value="false" type="RichBool" description="Flip Z axis"/>
+  <Param name="swapXY" value="false" type="RichBool" description="Swap X-Y axis"/>
+  <Param name="swapXZ" value="false" type="RichBool" description="Swap X-Z axis"/>
+  <Param name="swapYZ" value="false" type="RichBool" description="Swap Y-Z axis"/>
+  <Param name="Freeze" value="true" type="RichBool" description="Freeze Matrix"/>
+  <Param name="allLayers" value="false" type="RichBool" description="Apply to all visible Layers"/>
+ </filter>
+ <filter name="Invert Faces Orientation">
+  <Param name="forceFlip" value="true" type="RichBool" description="Force Flip"/>
+  <Param name="onlySelected" value="false" type="RichBool" description="Flip only selected faces"/>
+ </filter>
+ <filter name="Transform: Rotate">
+  <Param enum_cardinality="4" enum_val3="custom axis" name="rotAxis" enum_val1="Y axis" enum_val2="Z axis" enum_val0="X axis" value="1" type="RichEnum" description="Rotation on:"/>
+  <Param enum_cardinality="3" name="rotCenter" enum_val1="barycenter" enum_val2="custom point" enum_val0="origin" value="0" type="RichEnum" description="Center of rotation:"/>
+  <Param name="angle" max="360" value="90" type="RichDynamicFloat" min="-360" description="Rotation Angle"/>
+  <Param z="0" name="customAxis" x="0" type="RichPoint3f" description="Custom axis" y="0"/>
+  <Param z="0" name="customCenter" x="0" type="RichPoint3f" description="Custom center" y="0"/>
+  <Param name="snapFlag" value="false" type="RichBool" description="Snap angle"/>
+  <Param name="snapAngle" value="30" type="RichFloat" description="Snapping Value"/>
+  <Param name="Freeze" value="true" type="RichBool" description="Freeze Matrix"/>
+  <Param name="allLayers" value="false" type="RichBool" description="Apply to all visible Layers"/>
+ </filter>
+</FilterScript>
