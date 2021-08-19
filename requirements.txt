@@ -1,0 +1,11 @@
+matplotlib
+opencv-python
+numpy
+scikit-image
+imageio
+open3d
+natsort
+fvcore
+
+# for bodymocap
+torchgeometry
