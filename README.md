@@ -2,7 +2,7 @@
 
 Xiang Xu, Hanbyul Joo, Greg Mori, Manolis Savva.
 
-[[`arXiv`]()]
+[[`arXiv`](https://arxiv.org/abs/2108.08420)]
 [[`Bibtex`](#CitingD3DHOI)]
 
 <img src="images/teaser.png"/>
@@ -130,10 +130,12 @@ We use [mesh-fusion](https://github.com/davidstutz/mesh-fusion) to process [Part
 
 If you use find this code helpful, please consider citing:
 ```BibTeX
-@InProceedings{xxx,
-    title = {xxx},
-    author = {xxx},
-    booktitle = {xxx},
-    year = {2021},
+@misc{xu2021d3dhoi,
+      title={D3D-HOI: Dynamic 3D Human-Object Interactions from Videos}, 
+      author={Xiang Xu and Hanbyul Joo and Greg Mori and Manolis Savva},
+      year={2021},
+      eprint={2108.08420},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
 }
 ```
