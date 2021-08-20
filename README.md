@@ -5,7 +5,7 @@ Xiang Xu, Hanbyul Joo, Greg Mori, Manolis Savva.
 [[`arXiv`](https://arxiv.org/abs/2108.08420)]
 [[`Bibtex`](#CitingD3DHOI)]
 
-<img src="images/teaser.png"/>
+[<img src="images/teaser.png"/>](https://arxiv.org/abs/2108.08420)
 
 
 
