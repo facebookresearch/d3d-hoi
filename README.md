@@ -48,7 +48,7 @@ Original images are in the `frame` folder. Per-frame object masks are in the `gt
 ## SAPIEN PartNet-Mobility Models
 
 #### Pre-processing the Data
-Due to legal issue, we can not directly re-distribute the post-processed data. We provide the 24 CAD ID used in our paper [here](https://dl.fbaipublicfiles.com/d3d-hoi/processed_cads_id.zip). Please refer to the `preprocess` folder on how to run the CAD process code for PartNet-Mobility models.
+Due to legal issue, we can not directly re-distribute the post-processed data. We provide the 24 CAD ID together with the motion parameters used in our paper [here](https://drive.google.com/file/d/1AXysCKMU1uTSLnBwbFks_tSFP-IdMeFK/view?usp=sharing). Please refer to the `preprocess` folder on how to run the CAD process code for PartNet-Mobility models.
 
 
 #### Data Layout
